@@ -1,0 +1,242 @@
+body{
+    padding-top: 80px;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.logo{
+    cursor: pointer;
+    justify-content: flex-start;
+    display: flex;
+    color: #d61c2d;
+    font-weight: bold;
+    font-size: 24px;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        
+.cart-img {
+    cursor: pointer;
+  margin-right: 100px;
+}
+
+.hero{
+    background-color: #d61c2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px;
+    color: white;
+    height: 81vh;
+    box-sizing: border-box;
+
+}
+.hero-text h1{
+    font-size: 70px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+.hero p{
+    margin-top: 0px;
+    font-size: 35px;
+    
+}
+.hero img{
+    margin-top: 70px;
+    width: 600px;
+    border-radius: 20px;
+}
+.cart{
+    background-color: white;
+    color: #d61c2d;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+}
+.cart:hover{
+    box-shadow: 0 8px 16px black;
+}
+.menu{
+    h2{
+        text-align: center;
+        color: black;
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    p{
+        margin-top: 0px;
+        text-align: center;
+        color: #555;
+        font-size: 18px;
+    }
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pizza-item{
+    cursor: pointer;
+    border: 2px solid #eee;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.pizza-item:hover{
+    transform: scale(1.02);
+}
+
+.pizza-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pizza-name{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.pizza-ingredients{
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.pizza-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pizza-price{
+    font-weight: bold;
+    color: #d61c2d;
+    font-size: 25px;
+}
+.add-btn{
+    background-color: #d61c2d;
+    color:white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #d61c2d; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+.footer h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.footer p {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+
+/* this is the pizza */
+
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  width: 320px;
+  border-radius: 15px;
+}
+
+.product-details {
+  max-width: 400px;
+}
+
+.product-details h1 {
+  color: #d61c2d;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pizza-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #d61c2d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #b81722;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
