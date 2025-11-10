@@ -131,7 +131,7 @@ body {
 
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-left: 50px;
     margin-right: 50px;
@@ -279,4 +279,61 @@ body {
 .back-btn:hover {
     background-color: #b81722;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* # this is the hero section of the menu html */
+
+.hero-menu{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+  margin: 20px 70px 20px 70px;
+  overflow: hidden;
+}
+
+.hero-menu::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(33, 32, 32, 0.225);
+}
+
+.hero-content-menu{
+    margin-top: 230px;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.hero-menu h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-menu p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.hero-menu button {
+    margin-top: 0px;
+  background-color: whitesmoke;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero-menu button:hover{
+    opacity: 0.7;
+    transition: 0.1s ease-in;
 }
