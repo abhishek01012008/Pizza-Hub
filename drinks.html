@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/top.png">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/logo.jpeg" alt="Pizza Logo" onclick="window.location.href='index.html'">
+            <img src="./images/icons8-location.gif" style="height: 30px;margin-top: 10px;" class="location">
+            <input type="text" style="height: 20px;" class="location-input" placeholder="Enter your Location">
+        </div>
+        <div class="nav-links">
+            <a href="./Menu.html">Menu</a>
+            <a href="./coming_soon.html">About</a>
+            <a href="./coming_soon.html">Contact</a>
+        </div>
+        <div class="cart-img">
+            <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='coming_soon.html'">
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <div class="menu-grid">
+            <!-- this is row1 -->
+            <div class="pizza-item" onclick="window.location.href='supreme.html'">
+                <img src="./images/orange-juice.jpg" alt="supreme pizza">
+                <div class="pizza-name">Orange Juice</div>
+                <div class="pizza-ingredients">Freshly squeezed, tangy, and bursting with natural sweetness</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹249</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+
+            <div class="pizza-item" onclick="window.location.href='margherita.html'">
+                <img src="./images/craft-cocktail.jpg" alt="Margherita pizza">
+                <div class="pizza-name">Craft Cocktail</div>
+                <div class="pizza-ingredients">Expertly mixed with unique flavors for a refreshing twist</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹299</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+
+            <div class="pizza-item" onclick="window.location.href='bbq.html'">
+                <img src="./images/iced-coffee.jpg" alt="supreme pizza">
+                <div class="pizza-name">Iced Coffee</div>
+                <div class="pizza-ingredients">Chilled, smooth, and energizing with a bold coffee flavor</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹349</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+            <div class="pizza-item" onclick="window.location.href='veggie.html'">
+                <img src="./images/latte.jpg" alt="supreme pizza">
+                <div class="pizza-name">Latte</div>
+                <div class="pizza-ingredients">Creamy espresso with steamed milk, perfectly balanced and comforting</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹319</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+
+</html>

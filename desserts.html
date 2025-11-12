@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/top.png">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/logo.jpeg" alt="Pizza Logo" onclick="window.location.href='index.html'">
+            <img src="./images/icons8-location.gif" style="height: 30px;margin-top: 10px;" class="location">
+            <input type="text" style="height: 20px;" class="location-input" placeholder="Enter your Location">
+        </div>
+        <div class="nav-links">
+            <a href="./Menu.html">Menu</a>
+            <a href="./coming_soon.html">About</a>
+            <a href="./coming_soon.html">Contact</a>
+        </div>
+        <div class="cart-img">
+            <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='coming_soon.html'">
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <div class="menu-grid">
+            <!-- this is row1 -->
+            <div class="pizza-item" onclick="window.location.href='supreme.html'">
+                <img src="./images/cheesecake.jpg" alt="supreme pizza">
+                <div class="pizza-name">Cheese Cake</div>
+                <div class="pizza-ingredients">Creamy and velvety with a buttery, crunchy base</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹249</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+
+            <div class="pizza-item" onclick="window.location.href='margherita.html'">
+                <img src="./images/red-velvet-cake.jpg" alt="Margherita pizza">
+                <div class="pizza-name">Red Velvet Cake</div>
+                <div class="pizza-ingredients">Moist and tender with a hint of cocoa, topped with smooth cream cheese</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹299</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+
+            <div class="pizza-item" onclick="window.location.href='bbq.html'">
+                <img src="./images/chocolate-cake.jpg" alt="supreme pizza">
+                <div class="pizza-name">Choco Lava Cake</div>
+                <div class="pizza-ingredients">Rich chocolate cake with a warm, molten chocolate center</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹349</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>
+            <div class="pizza-item" onclick="window.location.href='veggie.html'">
+                <img src="./images/butterscotch-mousse.jpg" alt="supreme pizza">
+                <div class="pizza-name">Butterscotch Mousse</div>
+                <div class="pizza-ingredients">Light, airy, and sweet with the classic butterscotch flavor.</div>
+                <div class="pizza-footer">
+                    <div class="pizza-price">₹319</div>
+                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+
+</html>
