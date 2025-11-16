@@ -112,6 +112,7 @@ body {
 
 .cart:hover {
     box-shadow: 0 8px 16px black;
+    transition: 0.3s ease;
 }
 
 .menu {
