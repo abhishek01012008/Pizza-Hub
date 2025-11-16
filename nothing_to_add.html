@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/top.png">
+    <style>
+       
+        body {
+            margin: 0;
+            background-color: whitesmoke;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .logo img {
+            width: auto;
+        }
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .hero {
+            height: 60vh;
+            background-color: #d61c2d;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .coming {
+            align-items: center;
+            margin-top: 0px;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        .back-btn {
+            margin-top: 0px;
+            background-color: #d61c2d;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .back-btn:hover {
+            box-shadow: 0 8px 16px #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/logo.jpeg"alt="Pizza Logo">
+            <img src="./images/icons8-location.gif" style="height: 30px;margin-top: 10px;" class="location">
+            <input type="text" style="height: 20px;" class="location-input" placeholder="Enter your Location">
+        </div>
+        <div class="nav-links">
+            <a href="./Menu.html">Menu</a>
+            <a href="./coming_soon.html">About</a>
+            <a href="./coming_soon.html">Contact</a>
+        </div>
+        <div class="cart-img">
+            <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='coming_soon.html'">
+        </div>
+    </div>
+    <div class="hero">
+        <img class="coming" src="./images/nothing to add.png" alt="coming soon">
+        <button class="back-btn" onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+</body>
+</html>
