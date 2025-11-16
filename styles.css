@@ -52,9 +52,10 @@ body {
     box-shadow: 0 0 6px rgba(214, 28, 45, 0.3);
 }
 
-.nav-links{
+.nav-links {
     padding-left: 650px;
 }
+
 .nav-links a {
     margin: 0 15px 20px;
     text-decoration: none;
@@ -120,7 +121,8 @@ body {
         font-size: 25px;
         margin-bottom: 0%;
     }
-    p{
+
+    p {
         margin-top: 0px;
         text-align: center;
         color: black;
@@ -284,56 +286,57 @@ body {
 
 /* # this is the hero section of the menu html */
 
-.hero-menu{
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border-radius: 20px;
-  margin: 20px 53px 20px 53px;
-  overflow: hidden;
+.hero-menu {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 53px 20px 53px;
+    overflow: hidden;
 }
 
 .hero-menu::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(33, 32, 32, 0.225);
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(33, 32, 32, 0.225);
 }
 
-.hero-content-menu{
+.hero-content-menu {
     margin-top: 230px;
-  position: relative;
-  text-align: center;
-  color: white;
-  z-index: 2;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2;
 }
 
 .hero-menu h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .hero-menu p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  margin-bottom: 0px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .hero-menu button {
     margin-top: 0px;
-  background-color: whitesmoke;
-  border: none;
-  padding: 12px 30px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 16px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
 }
-.hero-menu button:hover{
+
+.hero-menu button:hover {
     opacity: 0.7;
     transition: 0.1s ease-in;
 }

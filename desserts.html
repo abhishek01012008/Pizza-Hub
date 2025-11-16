@@ -7,9 +7,6 @@
     <title>Pizza Hub</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" sizes="64x64" href="./images/top.png">
-    <style>
-
-    </style>
 </head>
 
 <body>
@@ -28,7 +25,13 @@
             <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='coming_soon.html'">
         </div>
     </div>
-    <div id="menu" class="menu">
+
+    <div style="display: flex;">
+        <img src="./images/back.png" alt="back button" style="margin-bottom: 0; margin-left: 50px;margin-top: 15px;height: 20px; cursor: pointer;" onclick="window.location.href='Menu.html'">
+        <p onclick="window.location.href='Menu.html'" style="cursor: pointer;">Back</p>
+    </div>
+    
+    <div id="menu" class="menu" style="margin-top: 5px;">
         <div class="menu-grid">
             <!-- this is row1 -->
             <div class="pizza-item" onclick="window.location.href='supreme.html'">
@@ -68,7 +71,9 @@
                     <div class="pizza-price">₹319</div>
                     <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
                 </div>
-            </div>        
+            </div>   
+            <!-- this is row2      -->
+
         </div>
     </div>
 </body>
