@@ -99,7 +99,12 @@ body {
     width: 600px;
     border-radius: 20px;
 }
-
+.pizza-image{
+    transition: 0.3s ease;
+}
+.pizza-image:hover{
+    transform: scale(1.03);
+}
 .cart {
     background-color: white;
     color: #d61c2d;
@@ -109,10 +114,13 @@ body {
     border: none;
     cursor: pointer;
 }
+.cart{
+    transition: 0.3s ease;
+}
 
 .cart:hover {
     box-shadow: 0 8px 16px black;
-    transition: 0.3s ease;
+    transform: scale(1.05);
 }
 
 .menu {
