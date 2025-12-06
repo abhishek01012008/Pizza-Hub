@@ -73,7 +73,6 @@ body {
 
 
 .hero {
-    background-color: #d61c2d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,12 +100,7 @@ body {
     width: 600px;
     border-radius: 20px;
 }
-.pizza-image{
-    transition: 0.3s ease;
-}
-.pizza-image:hover{
-    transform: scale(1.03);
-}
+
 .cart {
     background-color: white;
     color: #d61c2d;
