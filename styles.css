@@ -70,6 +70,8 @@ body {
 
 
 
+
+
 .hero {
     background-color: #d61c2d;
     display: flex;
@@ -229,7 +231,6 @@ body {
 }
 
 
-/* this is the pizza */
 
 .product-page {
     display: flex;
@@ -293,35 +294,24 @@ body {
 }
 
 
-/* # this is the hero section of the menu html */
-
-.hero-menu {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-radius: 20px;
-    margin: 5px 53px 20px 53px;
-    overflow: hidden;
-}
-
-.hero-menu::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(33, 32, 32, 0.225);
-}
-
 .hero-content-menu {
-    margin-top: 230px;
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
     z-index: 2;
 }
+.view{
+    background-color: #d61c2d;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
 
 .hero-menu h1 {
     font-size: 2.5rem;

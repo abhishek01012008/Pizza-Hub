@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,126 +8,143 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" sizes="64x64" href="./images/top.png">
 </head>
+
 <body>
     <div class="header">
         <div class="logo">
-            <img src="./images/logo.jpeg"alt="Pizza Logo">
+            <img src="./images/logo.jpeg" alt="Pizza Logo">
             <img src="./images/icons8-location.gif" style="height: 30px;margin-top: 10px;" class="location">
             <input type="text" style="height: 20px;" class="location-input" placeholder="Enter your Location">
         </div>
         <div class="nav-links">
             <a href="./Menu.html">Menu</a>
-            <a href="./coming_soon.html">About</a>
-            <a href="./coming_soon.html">Contact</a>
+            <a href="./assets/coming_soon.html">About</a>
+            <a href="./assets/coming_soon.html">Contact</a>
         </div>
         <div class="cart-img">
-            <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='nothing_to_add.html'">
+            <img src="./images/ca-img.png" alt="Cart Image" onclick="window.location.href='./assets/nothing_to_add.html'">
+
         </div>
     </div>
 
-    <!-- this is the red section -->
-     <div class="hero">
+    <div class="hero" style="background-image: url(./images/hero-pizzas-drinks.jpg);">
         <div class="hero-text">
             <h1>Hot & Fresh</h1>
             <h1 style="margin-top: 0;">Pizza Delivered</h1>
             <p>Order now and get your pizza delivery in 30 minutes or less!</p>
             <button class="cart" onclick="window.location.href='Menu.html'">Order Now →</button>
         </div>
-        <img src="./images/hero_pizza.jpeg" alt="Pizza" class="pizza-image" onclick="window.location.href='Menu.html'">
-     </div>
+    </div>
 
-    <!-- this is the menu section -->
-     <div id="menu" class="menu">
+
+    <div id="menu" class="menu">
         <h2>Top Bestsellers</h2>
         <p><img src="./images/location.png" style="height: 25px;margin-right: 4px;margin-top: 0px;">In Your locality</p>
 
         <div class="menu-grid">
-            <!-- this is row1 -->
-             <div class="pizza-item" onclick="window.location.href='supreme.html'">
+            <div class="pizza-item">
                 <img src="./images/supreme.jpeg" alt="supreme pizza">
                 <div class="pizza-name">Supreme Pizza</div>
                 <div class="pizza-ingredients">Loaded with pepperoni, sausage, peppers & mushrooms</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹249</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
-             <div class="pizza-item" onclick="window.location.href='margherita.html'">
+            <div class="pizza-item">
                 <img src="./images/Margherita.jpeg" alt="Margherita pizza">
                 <div class="pizza-name">Margherita</div>
                 <div class="pizza-ingredients">Classic fresh mozzarella, basil & tomato sauce</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹299</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
-             <div class="pizza-item" onclick="window.location.href='bbq.html'">
+            <div class="pizza-item">
                 <img src="./images/BBQ.jpeg" alt="supreme pizza">
                 <div class="pizza-name">BBQ Chicken</div>
                 <div class="pizza-ingredients">Grilled chicken with BBQ sauce & red onions</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹349</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
-             <!-- this is row2 -->
-              <div class="pizza-item" onclick="window.location.href='veggie.html'">
+            </div>
+
+            <div class="pizza-item">
                 <img src="./images/Veg-delight.jpeg" alt="supreme pizza">
                 <div class="pizza-name">Veggie Delight</div>
                 <div class="pizza-ingredients">Colorful peppers, mushrooms, olives & tomatoes</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹319</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
-             <div class="pizza-item" onclick="window.location.href='hawaiian.html'">
+            <div class="pizza-item">
                 <img src="./images/hawaiian.jpeg" alt="Margherita pizza">
                 <div class="pizza-name">Hawaiian</div>
                 <div class="pizza-ingredients">Ham & pineapple for tropical vibes</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹379</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
-             <div class="pizza-item" onclick="window.location.href='meat.html'">
+            <div class="pizza-item">
                 <img src="./images/meat.jpeg" alt="supreme pizza">
                 <div class="pizza-name">Meat Lovers</div>
                 <div class="pizza-ingredients">Pepperoni, sausage, bacon & ham extravaganza</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹349</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
-             <!-- this is row3 -->
-             <div class="pizza-item" onclick="window.location.href='garlic.html'">
+            </div>
+
+            <div class="pizza-item">
                 <img src="./images/garlic.jpeg" alt="supreme pizza">
                 <div class="pizza-name">Garlic Breadsticks</div>
                 <div class="pizza-ingredients">Crispy golden breadsticks with garlic butter</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹249</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
-             <div class="pizza-item" onclick="window.location.href='chicken.html'">
+            <div class="pizza-item">
                 <img src="./images/chicken.jpeg" alt="Margherita pizza">
                 <div class="pizza-name">Chicken Wings</div>
                 <div class="pizza-ingredients">Spicy wings with celery & ranch dip</div>
                 <div class="pizza-footer">
                     <div class="pizza-price">₹349</div>
-                    <button class="add-btn" onclick="window.location.href='coming_soon.html'">Add</button>
+                    <button class="remove-btn" style="margin-left: 100px;">-</button>
+                    <button class="add-btn">Add</button>
+                    <button class="adding-btn">+</button>
                 </div>
-             </div>
+            </div>
 
         </div>
-     </div>
-     <footer class="footer">
+    </div>
+    <footer class="footer">
         <h2>Pizza Hub</h2>
         <p>© 2025 Pizza Hub. All rights reserved.</p>
-     </footer>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
